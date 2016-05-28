@@ -19,7 +19,7 @@ class E13_Requires_IgnoreIf extends Specification {
     @Requires({ OperatingSystem.current.windows })
     void 'should only run on Windows'() {
         expect:
-            false
+            true
     }
 
     @IgnoreIf({ Jvm.current.java8Compatible })
