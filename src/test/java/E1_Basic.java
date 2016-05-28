@@ -17,6 +17,13 @@ public class E1_Basic {
         assertThat(reversed, is("!noitomedoC olleH"));
     }
 
+    @Test
+    // (II) is not possible because () are reserved chars
+    public void should_reverse_a_string_II() {
+
+        assertThat(reverse("Hello Codemotion!"), is("!noitomedoC olleH"));
+    }
+
     private String reverse(String myString) {
         StringBuilder myStringBuilder = new StringBuilder(myString);
 
