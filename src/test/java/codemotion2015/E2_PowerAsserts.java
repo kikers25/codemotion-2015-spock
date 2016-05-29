@@ -1,3 +1,5 @@
+package codemotion2015;
+
 import org.junit.Ignore;
 import org.junit.Test;
 

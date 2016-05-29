@@ -1,3 +1,5 @@
+package codemotion2015;
+
 import org.junit.Test;
 
 import static org.hamcrest.CoreMatchers.is;
