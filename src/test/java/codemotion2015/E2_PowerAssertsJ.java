@@ -9,7 +9,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @Ignore("Comment this annotation to check the errors")
-public class E2_PowerAsserts {
+public class E2_PowerAssertsJ {
 
     @Test
     public void should_fail_with_string() {

@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
-public class E1_Basic {
+public class E1_BasicJ {
 
     @Test
     public void should_reverse_a_string() {
