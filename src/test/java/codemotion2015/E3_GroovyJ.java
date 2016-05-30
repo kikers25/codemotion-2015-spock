@@ -16,7 +16,8 @@ import static org.hamcrest.core.IsCollectionContaining.hasItem;
 
 public class E3_GroovyJ {
 
-        @Test public void should_add_an_element_to_a_list() {
+        @Test
+        public void should_add_an_element_to_a_list() {
                 List<Integer> numbers = DataHelper.someFibonacciNumbers();
 
                 numbers.add(21);
@@ -24,7 +25,8 @@ public class E3_GroovyJ {
                 assertThat(numbers, hasItem(21));
         }
 
-        @Test public void should_make_some_assertions_in_elements_in_a_list() {
+        @Test
+        public void should_make_some_assertions_in_elements_in_a_list() {
                 List<Person> persons = DataHelper.makePersonList();
 
                 assertThat(persons, hasSize(4));
@@ -41,7 +43,8 @@ public class E3_GroovyJ {
                 // persons.name.min { it.length() } == 'Rajesh'
         }
 
-        @Test public void should_remove_an_element_from_a_map() {
+        @Test
+        public void should_remove_an_element_from_a_map() {
                 // given:
                 Map<String, ?> map = DataHelper.makePersonMap();
 
