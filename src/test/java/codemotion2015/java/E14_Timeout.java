@@ -6,7 +6,7 @@ import org.junit.Test;
 import static junit.framework.Assert.assertTrue;
 
 @Ignore("Remove to check that the test fails")
-public class E14_TimeoutJava {
+public class E14_Timeout {
 
         @Test(timeout = 500) public void should_fail_after_500_milliseconds() throws InterruptedException {
                 //given:

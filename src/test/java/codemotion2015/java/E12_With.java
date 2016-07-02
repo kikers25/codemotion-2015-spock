@@ -7,7 +7,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.Matchers.*;
 
-public class E12_WithJava {
+public class E12_With {
 
         @Test public void should_check_value_on_person() {
                 //when:

@@ -9,7 +9,7 @@ import static junit.framework.Assert.assertTrue;
 import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assume.assumeThat;
 
-public class E13_Requires_IgnoreIfJava {
+public class E13_Requires_IgnoreIf {
 
         public static final String OS = System.getProperty("os.name").toLowerCase();
 

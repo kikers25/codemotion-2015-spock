@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(Parameterized.class)
-public class E5_Data_drivenJ_2_3_and_4 {
+public class E5_Data_driven_2_3_and_4 {
 
         @Parameterized.Parameter(value = 0)
         public Integer x;

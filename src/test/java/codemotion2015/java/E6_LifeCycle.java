@@ -2,7 +2,7 @@ package codemotion2015.java;
 
 import org.junit.*;
 
-public class E6_LifeCycleJ {
+public class E6_LifeCycle {
 
         @BeforeClass
         public static void setupSpec() {

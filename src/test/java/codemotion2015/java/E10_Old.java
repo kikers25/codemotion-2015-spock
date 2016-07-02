@@ -9,7 +9,7 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
 
-public class E10_OldJava {
+public class E10_Old {
 
         @Test public void should_should_increase_the_size_of_the_list_when_adding_a_number() {
                 //given:

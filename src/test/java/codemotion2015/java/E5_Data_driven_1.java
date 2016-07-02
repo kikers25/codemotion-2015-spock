@@ -8,11 +8,10 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(Parameterized.class)
-public class E5_Data_drivenJ_1 {
+public class E5_Data_driven_1 {
 
         @Parameterized.Parameter
         public Integer number;

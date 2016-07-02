@@ -16,7 +16,7 @@ import static org.hamcrest.Matchers.containsInAnyOrder;
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.core.IsCollectionContaining.hasItem;
 
-public class E3_GroovyJ {
+public class E3_Groovy {
 
         @Test
         public void should_add_an_element_to_a_list() {
