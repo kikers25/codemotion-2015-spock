@@ -1,5 +1,6 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.Person;
 import org.junit.Before;
 import org.junit.Test;
 

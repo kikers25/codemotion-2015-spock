@@ -1,5 +1,7 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.DataHelper;
+import codemotion2015.Person;
 import org.junit.Test;
 
 import java.util.List;

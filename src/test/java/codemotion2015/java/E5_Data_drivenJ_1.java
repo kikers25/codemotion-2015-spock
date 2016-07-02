@@ -1,9 +1,6 @@
-package codemotion2015;
+package codemotion2015.java;
 
-import org.hamcrest.Description;
-import org.hamcrest.Factory;
-import org.hamcrest.Matcher;
-import org.hamcrest.TypeSafeMatcher;
+import org.hamcrest.*;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -11,7 +8,6 @@ import org.junit.runners.Parameterized;
 import java.util.Arrays;
 import java.util.Collection;
 
-import static codemotion2015.IsEvenNumber.evenNumber;
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
@@ -27,7 +23,7 @@ public class E5_Data_drivenJ_1 {
         }
 
         @Test public void all_numbers_should_be_even() {
-                assertThat(number, is(evenNumber()));
+                assertThat(number, CoreMatchers.is(IsEvenNumber.evenNumber()));
         }
 }
 

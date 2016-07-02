@@ -1,5 +1,9 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.EmailService;
+import codemotion2015.NotificationService;
+import codemotion2015.Person;
+import codemotion2015.RegisterUserService;
 import org.junit.Test;
 import org.mockito.ArgumentCaptor;
 import org.mockito.InOrder;

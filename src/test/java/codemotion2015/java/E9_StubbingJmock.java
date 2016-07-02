@@ -1,5 +1,7 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.Person;
+import codemotion2015.PersonRepository;
 import org.jmock.Expectations;
 import org.jmock.integration.junit4.JUnitRuleMockery;
 import org.junit.Rule;

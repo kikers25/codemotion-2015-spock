@@ -1,5 +1,6 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.Person;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;

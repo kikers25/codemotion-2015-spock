@@ -1,4 +1,4 @@
-package codemotion2015;
+package codemotion2015.java;
 
 public class E11_ConfineMetaClassChangesJava {
 

@@ -1,5 +1,8 @@
-package codemotion2015;
+package codemotion2015.java;
 
+import codemotion2015.NotificationService;
+import codemotion2015.Person;
+import codemotion2015.RegisterUserService;
 import org.jmock.Expectations;
 import org.jmock.Sequence;
 import org.jmock.integration.junit4.JUnitRuleMockery;

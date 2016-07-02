@@ -8,7 +8,7 @@ public class RegisterUserService {
         this.notificationService = notificationService;
     }
 
-    void registerUser(String name, String lastName) {
+    public void registerUser(String name, String lastName) {
         Person person = new Person(name, lastName);
 
         notificationService.sendNotification(person, "User created");
