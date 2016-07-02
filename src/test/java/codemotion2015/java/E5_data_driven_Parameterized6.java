@@ -16,7 +16,7 @@ import static org.hamcrest.MatcherAssert.*;
 import static org.hamcrest.core.Is.*;
 
 @RunWith(Parameterized.class)
-public class E5_data_driven_6 {
+public class E5_data_driven_Parameterized6 {
 
         @Parameterized.Parameter(value = 0)
         public String theName;

@@ -11,7 +11,7 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(Parameterized.class)
-public class E5_Data_driven_5 {
+public class E5_Data_driven_Parameterized2_3_and_4 {
 
         @Parameterized.Parameter(value = 0)
         public Integer x;
@@ -22,7 +22,7 @@ public class E5_Data_driven_5 {
         @Parameterized.Parameter(value = 2)
         public Integer result;
 
-        @Parameterized.Parameters(name = "should check that minimum of {0} and {1} is {2}")
+        @Parameterized.Parameters
         public static Collection<Integer[]> data() {
                 return Arrays.asList(
                     new Integer[]{1, 2 , 1},
@@ -30,8 +30,16 @@ public class E5_Data_driven_5 {
                     new Integer[]{0, 1, 0});
         }
 
-        @Test public void should_check_that_minimum_of_x_and_y_is_result() {
+        @Test public void should_get_the_minimum() {
                 assertThat(Math.min(x, y), is(result));
         }
 
+        /* data tables like:
+            x  | y  | result
+            1  | 2  | 1
+            -1 | -2 | -2
+            0  | 1  | 0
+
+            and unroll are not available in Junit
+        * */
 }

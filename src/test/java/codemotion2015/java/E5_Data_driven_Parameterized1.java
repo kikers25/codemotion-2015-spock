@@ -11,7 +11,7 @@ import java.util.Collection;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(Parameterized.class)
-public class E5_Data_driven_1 {
+public class E5_Data_driven_Parameterized1 {
 
         @Parameterized.Parameter
         public Integer number;
@@ -23,26 +23,5 @@ public class E5_Data_driven_1 {
 
         @Test public void all_numbers_should_be_even() {
                 assertThat(number, CoreMatchers.is(IsEvenNumber.evenNumber()));
-        }
-}
-
-class IsEvenNumber extends TypeSafeMatcher<Integer> {
-
-        @Override
-        public boolean matchesSafely(Integer number) {
-                if (number % 2 != 0) {
-                        return false;
-                }
-                return true;
-        }
-
-        @Override
-        public void describeTo(Description description) {
-                description.appendText("even number");
-        }
-
-        @Factory
-        public static <T> Matcher<Integer> evenNumber() {
-                return new IsEvenNumber();
         }
 }
