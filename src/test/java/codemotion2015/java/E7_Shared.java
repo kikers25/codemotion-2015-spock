@@ -13,9 +13,7 @@ public class E7_Shared {
 
         @Before
         public void setUp() {
-                person = new Person();
-                person.setName("Iván");
-                person.setLastName("López");
+                person = new Person("Iván", "López");
         }
 
         @Test public void should_get_name() {

@@ -6,7 +6,7 @@ import spock.lang.Specification
 class E7_Shared extends Specification {
 
     @Shared
-    def person = new Person('Iván', 'López')
+    def person = new Person('name': 'Iván', 'lastName': 'López')
 
     void 'should get name'() {
         given:
